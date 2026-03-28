@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtAutor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Korisnik" />
+
+            <TextView
+                android:id="@+id/txtOcjena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5/5"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"/>
+
+            <ImageButton
+                android:id="@+id/btnObrisiKomentar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:visibility="gone"
+                android:tint="#FF0000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:text="01.01.2025."
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/txtSadrzaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ovo je tekst komentara..." />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

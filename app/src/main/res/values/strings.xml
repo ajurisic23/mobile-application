@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Auto moto oglasnik</string>
+    <string name="btn_reg">Registriraj se</string>
+    <string name="txt_imamRacun">Već imate račun?</string>
+    <string name="txt_unesiI">Unesite ime</string>
+    <string name="txt_unesiP">Unesite prezime</string>
+    <string name="txt_unesiK">Unesite korisničko ime</string>
+    <string name="txt_unesiE">Unesite e-mail</string>
+    <string name="txt_unesiL">Unesite lozinku</string>
+    <string name="txt_idiNaPrijavu"><u>Klikni ovdje!</u></string>
+    <string name="txt_prijava">Prijavi se</string>
+    <string name="txt_nemasracun">Nemaš račun?</string>
+    <string name="txt_idinaReg"><u>Klikni ovdje!</u></string>
+    <string name="txt_idiNaPocetnu"><u>Početna </u></string>
+    <string name="txt_opis1">Veliki broj ljudi kupuje i prodaje vozila na ovom oglasniku.</string>
+    <string name="txt_opis2"> Još uvijek stigneš napraviti račun i postati član ako još nisi!</string>
+    <string name="txt_gost">Nastavi kao gost</string>
+
+    <string-array name="filter_opcije">
+        <item>Nije odabrano</item>
+        <item>Odabrano</item>
+    </string-array>
+
+    <!-- Postavke -->
+    <string name="odaberite_jezik">Odaberite jezik:</string>
+    <string name="jezik_hrvatski">Hrvatski</string>
+    <string name="jezik_engleski">Engleski</string>
+    <string name="tamni_nacin">Tamni način</string>
+    <string name="test_baze">Test baze</string>
+    <string name="podaci_dohvaceni">Podaci uspješno dohvaćeni!</string>
+    <string name="greska">Greška</string>
+    <string name="greska_format">Greška: %1$s</string>
+    <string name="greska_korisnik_nije_pronadjen">Korisnik s ID 1 nije pronađen.</string>
+    <string name="greska_konekcija_baza">Konekcija na bazu nije uspjela.</string>
+
+    <!-- Novi Oglas -->
+    <string name="greska_niste_prijavljeni">Greška: Morate biti prijavljeni!</string>
+    <string name="oglas_spremljen">Oglas spremljen!</string>
+    <string name="greska_nema_konekcije">Nema konekcije s bazom</string>
+    <string name="greska_vozilo_id_nije_dobiven">vozilo_id nije dobiven</string>
+
+    <!-- Detalji Oglasa -->
+    <string name="nedostaje_oglas_id">Nedostaje oglasId</string>
+    <string name="oglas_nije_pronadjen">Oglas nije pronađen.</string>
+    <string name="valuta_euro">€</string>
+    <string name="oznaka_km">km</string>
+    <string name="oznaka_kw">kw</string>
+    <string name="detalji_nisu_ucitani">Detalji nisu učitani.</string>
+    <string name="nemate_pravo_brisanja">Nemaš pravo brisati ovaj oglas.</string>
+    <string name="oglas_obrisan">Oglas obrisan.</string>
+    <string name="oglas_ne_postoji">Oglas ne postoji.</string>
+    <string name="oglas_nije_obrisan">Oglas nije obrisan.</string>
+    <string name="nepoznata_greska">Nepoznata greška</string>
+
+    <!-- Profil -->
+    <string name="profil_ime">Ime: %1$s</string>
+    <string name="profil_prezime">Prezime: %1$s</string>
+    <string name="profil_korisnicko_ime">Korisničko ime: %1$s</string>
+    <string name="profil_datum_registracije">Datum registracije: %1$s</string>
+    <string name="funkcionalnost_u_izradi">Funkcionalnost u izradi...</string>
+    <string name="moji_oglasi">Moji oglasi</string>
+
+    <!-- Lista Oglasa -->
+    <string name="format_cijena_lista">Cijena: %1$.2f €</string>
+    <string name="format_kilometri_lista">Kilometri: %1$d km</string>
+    <string name="format_godina_lista">Godina: %1$d</string>
+
+    <!-- Donji izbornik -->
+    <string name="izbornik_pocetna">Početna</string>
+    <string name="izbornik_postavke">Postavke</string>
+    <string name="izbornik_profil">Moj profil</string>
+
+    <!--Oglas-->
+    <string name="naziv_vozila">Naziv vozila</string>
+    <string name="cijena">Cijena:</string>
+    <string name="broj_brzina">Broj brzina:</string>
+    <string name="obrisi_oglas">Obriši oglas</string>
+    <string name="objavio">Objavio:</string>
+    <string name="lokacija">Lokacija:</string>
+    <string name="opis">Opis:</string>
+    <string name="tip_mjenjaca">Tip mjenjača:</string>
+    <string name="snaga_motora">Snaga motora:</string>
+    <string name="gorivo">Gorivo:</string>
+    <string name="kilometri">Kilometri:</string>
+    <string name="vozilo">Vozilo:</string>
+    <string name="godina_proizvodnje">Godina proizvodnje:</string>
+    <string name="content_description_vozilo">Vozilo</string>
+    <string name="km_label">km</string>
+    <string name="novi_oglas">Novi oglas</string>
+    <string name="spremi_oglas">Spremi oglas</string>
+    <string name="naslov">Naslov:</string>
+    <string name="marka">Marka:</string>
+    <string name="model">Model:</string>
+    <string name="ostavi_komentar_recenziju">Ostavi komentar i recenziju</string>
+    <string name="komentari_i_recenzije">Komemtari i recenzije</string>
+
+    <!-- Uređivanje oglasa -->
+    <string name="uredi_oglas">Uredi oglas</string>
+    <string name="spremi_promjene">Spremi promjene</string>
+    <string name="oglas_azuriran">Oglas ažuriran.</string>
+    <string name="nemate_pravo_uredivanja">Nemaš pravo uređivati ovaj oglas.</string>
+
+    <!-- Potvrda brisanja -->
+    <string name="odustani">Odustani</string>
+    <string name="obrisi">U redu</string>
+    <string name="brisanje_oglasa_naslov">Brisanje oglasa</string>
+    <string name="brisanje_oglasa_poruka">Jeste li sigurni?</string>
+
+    <string-array name="tipovi_goriva">
+        <item>Tip goriva</item>
+        <item>Dizel</item>
+        <item>Benzin</item>
+        <item>Hibrid</item>
+        <item>Struja</item>
+    </string-array>
+
+    <string-array name="tipovi_mjenjaca">
+        <item>Tip mjenjača</item>
+        <item>Manualni</item>
+        <item>Automatski</item>
+        <item>Sekvencijski</item>
+    </string-array>
+
+    <!-- Komentari i recenzije -->
+    <string name="naslov_novi_komentar">Novi komentar</string>
+    <string name="oznaka_vasa_ocjena">Vaša ocjena:</string>
+    <string name="gumb_objavi">Objavi</string>
+
+    <!-- Poruke -->
+    <string name="unesite_tekst_komentara">Unesite tekst komentara</string>
+    <string name="komentar_dodan">Komentar uspješno dodan!</string>
+    <string name="komentar_obrisan">Komentar obrisan</string>
+    <string name="greska_vec_komentirali">Greška! Možda ste već komentirali?</string>
+    <string name="potvrda_brisanja_naslov">Brisanje komentara</string>
+    <string name="potvrda_brisanja_poruka">Jeste li sigurni da želite obrisati ovaj komentar?</string>
+    <string name="da">Da</string>
+    <string name="ne">Ne</string>
+    <string name="nema_komentara_poruka">Nema komentara za ovaj oglas.</string>
+
+
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/novi_oglas"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:id="@+id/txtNaslovEkrana"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/edtNaslov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/naslov"
+                android:inputType="textCapSentences" />
+
+            <!-- CIJENA -->
+            <EditText
+                android:id="@+id/edtCijena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cijena"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="12dp" />
+
+            <!-- VOZILO  -->
+            <EditText
+                android:id="@+id/edtMarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/marka"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/edtModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/model" />
+
+            <!-- GODINA PROIZVODNJE -->
+            <EditText
+                android:id="@+id/edtGodina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/godina_proizvodnje"
+                android:inputType="number" />
+
+            <!-- KILOMETRI -->
+            <EditText
+                android:id="@+id/edtKilometri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/kilometri"
+                android:inputType="number" />
+
+            <!-- GORIVO -->
+            <Spinner
+                android:id="@+id/spinnerGorivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/tipovi_goriva" />
+
+            <!-- SNAGA MOTORA -->
+            <EditText
+                android:id="@+id/edtSnaga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/snaga_motora"
+                android:inputType="number" />
+
+            <!-- BROJ BRZINA -->
+            <EditText
+                android:id="@+id/edtBrzine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/broj_brzina"
+                android:inputType="number" />
+
+            <!-- MJENJAČ -->
+            <Spinner
+                android:id="@+id/spinnerMjenjac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:entries="@array/tipovi_mjenjaca" />
+
+            <!-- OPIS -->
+            <EditText
+                android:id="@+id/edtOpis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/opis"
+                android:minLines="3"
+                android:gravity="top"
+                android:layout_marginTop="16dp" />
+
+            <!-- LOKACIJA -->
+            <EditText
+                android:id="@+id/edtLokacija"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lokacija"
+                android:layout_marginTop="16dp" />
+
+            <!-- SPREMI -->
+            <Button
+                android:id="@+id/btnSpremiOglas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spremi_oglas"
+                android:layout_marginTop="24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

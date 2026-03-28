@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AutoMotoOglasnik" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/glavna_plava</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/akcijska_narancasta</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/pozadina_siva</item>
+        <item name="android:statusBarColor">@color/akcijska_narancasta</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="materialButtonStyle">@style/NarancastiGumb</item>
+    </style>
+
+    <style name="Theme.AutoMotoOglasnik" parent="Base.Theme.AutoMotoOglasnik" />
+
+    <style name="NarancastiGumb" parent="Widget.Material3.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+    </style>
+</resources>

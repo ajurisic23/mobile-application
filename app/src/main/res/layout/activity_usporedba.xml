@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USPOREDBA VOZILA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/akcijska_narancasta"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:id="@+id/layoutVozilo1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <ImageView android:id="@+id/imgV1" android:layout_width="match_parent" android:layout_height="120dp" android:scaleType="centerCrop"/>
+                <TextView android:id="@+id/txtNaslovV1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="16sp"/>
+                <TextView android:id="@+id/txtCijenaV1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/akcijska_narancasta"/>
+                <TextView android:id="@+id/txtKmV1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/txtGodinaV1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#DDDDDD" android:layout_marginHorizontal="8dp"/>
+
+            <LinearLayout
+                android:id="@+id/layoutVozilo2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+                <ImageView android:id="@+id/imgV2" android:layout_width="match_parent" android:layout_height="120dp" android:scaleType="centerCrop"/>
+                <TextView android:id="@+id/txtNaslovV2" android:layout_width="match_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="16sp"/>
+                <TextView android:id="@+id/txtCijenaV2" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/akcijska_narancasta"/>
+                <TextView android:id="@+id/txtKmV2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/txtGodinaV2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

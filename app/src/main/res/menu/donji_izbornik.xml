@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_pocetna"
+        android:icon="@drawable/rounded_add_home_24"
+        android:title="@string/izbornik_pocetna" />
+
+    <item
+        android:id="@+id/nav_postavke"
+        android:icon="@drawable/outline_adjust_24"
+        android:title="@string/izbornik_postavke" />
+
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/outline_badge_24"
+        android:title="@string/izbornik_profil" />
+
+</menu>

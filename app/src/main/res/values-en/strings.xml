@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Car and motorcycle marketplace</string>
+    <string name="btn_reg">Register</string>
+    <string name="txt_imamRacun">Already have an account?</string>
+    <string name="txt_unesiI">Enter name</string>
+    <string name="txt_unesiP">Enter last name</string>
+    <string name="txt_unesiK">Enter username</string>
+    <string name="txt_unesiE">Enter e-mail</string>
+    <string name="txt_unesiL">Enter password</string>
+    <string name="txt_idiNaPrijavu"><u>Click here!</u></string>
+    <string name="txt_prijava">Log in</string>
+    <string name="txt_nemasracun">Don\'t have an account?</string>
+    <string name="txt_idinaReg"><u>Click here!</u></string>
+    <string name="txt_idiNaPocetnu"><u>Home</u></string>
+    <string name="txt_opis1">A large number of people buy and sell vehicles on this marketplace.</string>
+    <string name="txt_opis2">You can still create an account and become a member if you haven\'t already!</string>
+    <string name="txt_gost">Continue as a guest</string>
+
+    <!-- Postavke -->
+    <string name="odaberite_jezik">Select language:</string>
+    <string name="jezik_hrvatski">Croatian</string>
+    <string name="jezik_engleski">English</string>
+    <string name="tamni_nacin">Dark mode</string>
+    <string name="test_baze">Test database</string>
+    <string name="podaci_dohvaceni">Data successfully fetched!</string>
+    <string name="greska">Error</string>
+    <string name="greska_format">Error: %1$s</string>
+    <string name="greska_korisnik_nije_pronadjen">User with ID 1 not found.</string>
+    <string name="greska_konekcija_baza">Database connection failed.</string>
+
+    <!-- Novi Oglas -->
+    <string name="novi_oglas">New Ad</string>
+    <string name="greska_niste_prijavljeni">Error: You must be logged in!</string>
+    <string name="oglas_spremljen">Ad saved!</string>
+    <string name="greska_nema_konekcije">No database connection</string>
+    <string name="greska_vozilo_id_nije_dobiven">vehicle_id not obtained</string>
+    <string name="spremi_oglas">Save Ad</string>
+    <string name="naslov">Title:</string>
+    <string name="marka">Make:</string>
+    <string name="model">Model:</string>
+
+    <!-- Detalji Oglasa -->
+    <string name="nedostaje_oglas_id">Missing ad ID</string>
+    <string name="oglas_nije_pronadjen">Ad not found.</string>
+    <string name="valuta_euro">€</string>
+    <string name="oznaka_km">km</string>
+    <string name="oznaka_kw">kw</string>
+    <string name="detalji_nisu_ucitani">Details not loaded.</string>
+    <string name="nemate_pravo_brisanja">You do not have permission to delete this ad.</string>
+    <string name="oglas_obrisan">Ad deleted.</string>
+    <string name="oglas_ne_postoji">Ad does not exist.</string>
+    <string name="oglas_nije_obrisan">Ad was not deleted.</string>
+    <string name="nepoznata_greska">Unknown error</string>
+
+    <!-- Profil -->
+    <string name="profil_ime">Name: %1$s</string>
+    <string name="profil_prezime">Last name: %1$s</string>
+    <string name="profil_korisnicko_ime">Username: %1$s</string>
+    <string name="profil_datum_registracije">Registration date: %1$s</string>
+    <string name="funkcionalnost_u_izradi">Functionality in development...</string>
+    <string name="moji_oglasi">My Ads</string>
+
+    <!-- Lista Oglasa -->
+    <string name="format_cijena_lista">Price: €%1$.2f</string>
+    <string name="format_kilometri_lista">Mileage: %1$d km</string>
+    <string name="format_godina_lista">Year: %1$d</string>
+
+    <!-- Donji izbornik -->
+    <string name="izbornik_pocetna">Home</string>
+    <string name="izbornik_postavke">Settings</string>
+    <string name="izbornik_profil">My profile</string>
+
+    <string name="naziv_vozila">Vehicle name</string>
+    <string name="cijena">Price:</string>
+    <string name="broj_brzina">Number of speeds:</string>
+    <string name="obrisi_oglas">Delete ad</string>
+    <string name="objavio">Posted by:</string>
+    <string name="lokacija">Location:</string>
+    <string name="opis">Description:</string>
+    <string name="tip_mjenjaca">Transmission type:</string>
+    <string name="snaga_motora">Engine power:</string>
+    <string name="gorivo">Fuel:</string>
+    <string name="kilometri">Mileage:</string>
+    <string name="vozilo">Vehicle:</string>
+    <string name="godina_proizvodnje">Year of production:</string>
+    <string name="content_description_vozilo">Vehicle</string>
+    <string name="km_label">km</string>
+    <string name="ostavi_komentar_recenziju">Leave a comment and a review</string>
+    <string name="komentari_i_recenzije">Comments and reviews</string>
+
+    <!-- Uređivanje oglasa -->
+    <string name="uredi_oglas">Edit ad</string>
+    <string name="spremi_promjene">Save changes</string>
+    <string name="oglas_azuriran">Ad updated.</string>
+    <string name="nemate_pravo_uredivanja">Permission denied!</string>
+
+    <!-- Potvrda brisanja -->
+    <string name="odustani">Cancel</string>
+    <string name="obrisi">OK</string>
+    <string name="brisanje_oglasa_naslov">Delete ad</string>
+    <string name="brisanje_oglasa_poruka">Are you sure?</string>
+
+    <string-array name="tipovi_goriva">
+        <item>Fuel type</item>
+        <item>Diesel</item>
+        <item>Petrol</item>
+        <item>Hybrid</item>
+        <item>Electric</item>
+    </string-array>
+
+    <string-array name="tipovi_mjenjaca">
+        <item>Transmission type</item>
+        <item>Manual</item>
+        <item>Automatic</item>
+        <item>Sequential</item>
+    </string-array>
+
+    <string name="naslov_novi_komentar">New Comment</string>
+    <string name="oznaka_vasa_ocjena">Your rating:</string>
+    <string name="gumb_objavi">Post</string>
+
+    <string name="unesite_tekst_komentara">Please enter comment text</string>
+    <string name="komentar_dodan">Comment added successfully!</string>
+    <string name="komentar_obrisan">Comment deleted</string>
+    <string name="greska_vec_komentirali">Error! You might have already commented?</string>
+    <string name="potvrda_brisanja_naslov">Delete Comment</string>
+    <string name="potvrda_brisanja_poruka">Are you sure you want to delete this comment?</string>
+    <string name="da">Yes</string>
+    <string name="ne">No</string>
+    <string name="nema_komentara_poruka">No comments for this listing yet.</string>
+
+</resources>

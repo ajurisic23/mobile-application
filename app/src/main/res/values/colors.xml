@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="glavna_plava">#1565C0</color>
+    <color name="tamna_plava">#0D47A1</color>
+    <color name="akcijska_narancasta">#FF6F00</color>
+    <color name="pozadina_siva">#F5F5F5</color>
+    <color name="tamna_pozadina">#121212</color>
+    <color name="plava_svijetla">#90CAF9</color>
+    <color name="narancasta_svijetla">#FFB74D</color>
+    <color name="tamna_kartica">#1E1E1E</color>
+    <color name="sivi_search">#4B4A4A</color>
+
+</resources>

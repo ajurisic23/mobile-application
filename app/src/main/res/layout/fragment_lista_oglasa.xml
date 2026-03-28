@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewVozila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/sivi_search"
+        app:iconifiedByDefault="false"
+        app:queryHint="Pretraži marku ili model..." />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <Button
+                android:id="@+id/btnSortCijenamin"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena:najniža"
+                android:textColor="@color/akcijska_narancasta" />
+
+            <Button
+                android:id="@+id/btnSortCijenamax"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena:najviša"
+
+                android:textColor="@color/akcijska_narancasta" />
+
+            <Button
+                android:id="@+id/btnSortGodina"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Najnovije"
+
+                android:textColor="@color/akcijska_narancasta" />
+
+            <Button
+                android:id="@+id/btnSortKM"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kilometri:najmanje"
+
+                android:textColor="@color/akcijska_narancasta" />
+
+            <Button
+                android:id="@+id/btnSortKm"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Kilometri:najviše"
+                android:textColor="@color/akcijska_narancasta" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/layoutNaslovFiltera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FILTRIRAJ VOZILA"
+                android:textColor="@color/akcijska_narancasta"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgStrelica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/arrow_down_float" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutSviFilteri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAFAFA"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kilometri: manje od100k:"
+                android:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinnerKilometraza"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:entries="@array/filter_opcije" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena manja od 50k:" />
+
+            <Spinner
+                android:id="@+id/spinnerCijena"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:entries="@array/filter_opcije" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Godiste vece od 2000:" />
+
+            <Spinner
+                android:id="@+id/spinnerGodiste"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:entries="@array/filter_opcije" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvVozila"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnPokreniUsporedbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Usporedi odabrana vozila"
+        android:backgroundTint="@color/akcijska_narancasta"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+</LinearLayout>
