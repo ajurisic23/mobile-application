@@ -15,8 +15,8 @@ Autoplac.net Mobile represents a mobile version of a vehicle marketplace platfor
 - User registration and login system
 - Adding, editing, and deleting vehicle listings (Full CRUD)
 - Advanced vehicle search functionality
+- Vehicle Comparison
 - Detailed filtering and sorting options
-- Integrated vehicle purchasing system
 - Asynchronous data loading for optimized performance
 - User account and profile management
 
@@ -27,7 +27,8 @@ Autoplac.net Mobile represents a mobile version of a vehicle marketplace platfor
 - Language: Kotlin
 - Platform: Android SDK
 - Concurrency: Kotlin Coroutines
-- Database: SQL (SQLite / Room)
+- Database: SQL
+- Asynchronous programming (Coroutines)  
 - Design Pattern: Object-Oriented Programming (OOP)
 
 ---
@@ -46,9 +47,7 @@ Autoplac.net Mobile represents a mobile version of a vehicle marketplace platfor
 
 ### Option 2: Run via Android Studio
 
-1. Clone the repository:
-   git clone https://github.com/your-username/autoplac-mobile.git
-
+1. Clone the repository: git clone https://github.com/your-username/autoplac-mobile.git
 2. Open the project in Android Studio.
 3. Sync project with Gradle files.
 4. Build and run the application on an emulator or physical device.
@@ -62,8 +61,7 @@ The application uses an SQL database for storing and managing the following data
 - User Accounts: Credentials and profile settings.
 - Vehicle Data: Technical specifications and details.
 - Listings: Active advertisements and pricing.
-- Transactions: Records of completed purchases.
-
+  
 ---
 
 ## Usage
@@ -73,13 +71,11 @@ After logging in, users can:
 - Browse the marketplace for available vehicles.
 - Use advanced filters to refine search results.
 - Create, update, or remove their own vehicle listings.
-- Execute vehicle purchases through the system.
+- User account and profile management
+- Vehicle Comparison
 
 ---
 
 ## License
 
 This project was developed for educational purposes.
-## Contact
-
-Repository Link: https://github.com/your-username/autoplac-mobile
