@@ -1,6 +1,6 @@
 # Autoplac.net Mobile
 
-Autoplac.net Mobile is a professional Android application developed in Kotlin, designed for listing, browsing, and purchasing vehicles. The application provides a modern and responsive interface, allowing users to manage listings, search and filter vehicles, and complete transactions directly from their mobile devices.
+Autoplac.net Mobile is a professional Android application developed in Kotlin, designed for listing, browsing, and purchasing vehicles. The application provides a modern and responsive interface, allowing users to manage listings, search and filter vehicles, compare vehicles and so on.
 
 ---
 
